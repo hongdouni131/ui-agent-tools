@@ -1,0 +1,8 @@
+{
+  "name": "UIAgent.Tools.Runtime",
+  "rootNamespace": "UIAgent.Tools",
+  "references": [
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "UIAgent.Tools.Editor",
+  "rootNamespace": "UIAgent.Tools.Editor",
+  "references": [
+    "UIAgent.Tools.Runtime",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "UIAgent.Tools.Editor.Tests",
+  "rootNamespace": "UIAgent.Tools.Editor.Tests",
+  "references": [
+    "UIAgent.Tools.Runtime",
+    "UIAgent.Tools.Editor",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": ["Editor"],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

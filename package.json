@@ -1,0 +1,33 @@
+{
+  "name": "com.hongdouni.ui-agent-tools",
+  "version": "0.1.0",
+  "license": "MIT",
+  "displayName": "UI Agent Tools",
+  "description": "Unity uGUI Spec composition, Sprite selection, confirmed Prefab generation and auditing tools.",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.textmeshpro": "3.0.7",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "samples": [
+    {
+      "displayName": "Confirmation Dialog Integration",
+      "description": "A small MonoBehaviour example for opening the generated confirmation dialog and wiring project-owned confirm/cancel callbacks.",
+      "path": "Samples~/Confirmation Dialog Integration"
+    },
+    {
+      "displayName": "Audio Mixer Slider Integration",
+      "description": "An optional MonoBehaviour example that maps generated UI Sliders to exposed Unity AudioMixer parameters.",
+      "path": "Samples~/Audio Mixer Slider Integration"
+    },
+    {
+      "displayName": "Menu Flow Integration",
+      "description": "Consumer-owned menu navigation, explicit volume save/defaults and isolated PlayerPrefs storage example. Import Audio Mixer Slider Integration separately for audio mapping.",
+      "path": "Samples~/Menu Flow Integration"
+    }
+  ],
+  "documentationUrl": "https://github.com/hongdouni131/ui-agent-tools/blob/main/Documentation~/usage.md",
+  "changelogUrl": "https://github.com/hongdouni131/ui-agent-tools/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/hongdouni131/ui-agent-tools/blob/main/LICENSE"
+}
